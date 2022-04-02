@@ -1,0 +1,137 @@
+* {
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.esquerda {
+
+    width: 35%;
+    float: left;
+    height: 500px;
+
+}
+
+.direita {
+
+    width: 65%;
+    float: right;
+    height: 500px;
+
+}
+
+form {
+
+    width: 330px;
+    background-color: rgba(0,0,0,.2);
+    padding: 20px;
+    margin: 30px auto;
+
+}
+
+form > h2 {
+
+    text-align: center;
+
+}
+
+label, input {
+
+    display: block;
+    line-height: 30px;
+    height: 30px;
+    font-size: 13pt;
+    width: 100%;
+
+}
+
+input[type="submit"] {
+
+    margin-top: 15px;
+    cursor: pointer;
+
+}
+
+table {
+
+    background-color: rgba(0,0,0,.2);
+    width: 90%;
+    margin: 30px auto;
+
+}
+
+tr {
+
+    line-height: 30px;
+
+}
+
+tr#titulo {
+
+    font-weight: bold;
+    background-color: rgba(0,0,0,.6);
+    color: #fff;
+
+}
+
+td {
+
+    padding: 0px 5px;
+
+}
+
+a {
+
+    background-color: #fff;
+    color: #000;
+    padding: 5px;
+    margin: 0 5px;
+    text-decoration: none;
+
+}
+
+div#msg-sucesso {
+
+    display: flex;
+    width: 20%;
+    margin: 30px 100px 0;
+
+}
+
+div#msg-sucesso > p {
+
+    margin: 0 auto;
+    color: #008000;
+
+}
+
+div#msg-erro {
+
+    display: flex;
+    width: 20%;
+    margin: 30px 100px 0;
+
+}
+
+div#msg-erro > p {
+
+    margin: 0 auto;
+    color: #ff0000;
+
+}
+
+div#msg-erro-1 {
+
+    display: flex;
+
+}
+
+div#msg-erro-1 > p {
+
+    margin: 0 auto;
+    color: #ff0000;
+
+}
